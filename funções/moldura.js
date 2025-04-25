@@ -12,7 +12,7 @@ function barra(qtde) {
 
 //-- Fora da função
 
-const frase = readline.question('\nFrase? ');
+const frase = readline.question('\n Digite frase? ');
 
 barra(frase.length);
 console.log(`${ch} ${frase} ${ch}`);
